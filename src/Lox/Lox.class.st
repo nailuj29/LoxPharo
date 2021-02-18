@@ -6,3 +6,15 @@ Class {
 	#superclass : #Object,
 	#category : #Lox
 }
+
+{ #category : #running }
+Lox >> repl [
+	"Opens a window for entering code one line at a time, as a repl"
+	"The code is entered in a textbox, and when enter is pressed, added to a textbox to be output"
+]
+
+{ #category : #running }
+Lox >> runScript [
+	"Opens a dialog to enter a script, and runs it. Outputs to transcript"
+	
+]
