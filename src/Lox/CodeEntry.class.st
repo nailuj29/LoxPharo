@@ -3,6 +3,10 @@ The window for the code entry field
 "
 Class {
 	#name : #CodeEntry,
-	#superclass : #Repl,
+	#superclass : #SpPresenter,
+	#instVars : [
+		'codeEntryField',
+		'buttonRunCode'
+	],
 	#category : #Lox
 }
