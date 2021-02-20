@@ -16,5 +16,5 @@ Lox >> repl [
 { #category : #running }
 Lox >> runScript [
 	"Opens a dialog to enter a script, and runs it. Outputs to transcript"
-	
+	CodeEntry new openWithSpec.
 ]
